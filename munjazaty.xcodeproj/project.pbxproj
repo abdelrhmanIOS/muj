@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94BBBA8E4D8195A7288A84B3 /* Pods_munjazaty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A81DFA3C7E8E97AB00FE2585 /* Pods_munjazaty.framework */; };
+		AF2B3B9621C2DA80006399DA /* CellayaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B3B9521C2DA80006399DA /* CellayaTableViewCell.swift */; };
+		AF43FC4421C2A62A003974CD /* cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF43FC4321C2A62A003974CD /* cell.swift */; };
+		AF59080421C149710089A74E /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF59080321C149710089A74E /* home.swift */; };
+		AF59080621C14A270089A74E /* callender.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF59080521C14A270089A74E /* callender.swift */; };
 		AFB664CE21C0B1C200365A19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB664CD21C0B1C200365A19 /* AppDelegate.swift */; };
 		AFB664D021C0B1C200365A19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB664CF21C0B1C200365A19 /* ViewController.swift */; };
 		AFB664D321C0B1C200365A19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB664D121C0B1C200365A19 /* Main.storyboard */; };
@@ -15,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		695AB9B1DA90EC1EE2D5E8C5 /* Pods-munjazaty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-munjazaty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-munjazaty/Pods-munjazaty.debug.xcconfig"; sourceTree = "<group>"; };
+		A81DFA3C7E8E97AB00FE2585 /* Pods_munjazaty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_munjazaty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2B3B9521C2DA80006399DA /* CellayaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellayaTableViewCell.swift; sourceTree = "<group>"; };
+		AF43FC4321C2A62A003974CD /* cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cell.swift; sourceTree = "<group>"; };
+		AF59080321C149710089A74E /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		AF59080521C14A270089A74E /* callender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = callender.swift; sourceTree = "<group>"; };
 		AFB664CA21C0B1C200365A19 /* munjazaty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = munjazaty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB664CD21C0B1C200365A19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFB664CF21C0B1C200365A19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,7 @@
 		AFB664D421C0B1C500365A19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFB664D721C0B1C500365A19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFB664D921C0B1C500365A19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC0755060A3DAC4D12F33F65 /* Pods-munjazaty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-munjazaty.release.xcconfig"; path = "Pods/Target Support Files/Pods-munjazaty/Pods-munjazaty.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,59 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94BBBA8E4D8195A7288A84B3 /* Pods_munjazaty.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7246468975BC73D45FBBB7CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				695AB9B1DA90EC1EE2D5E8C5 /* Pods-munjazaty.debug.xcconfig */,
+				EC0755060A3DAC4D12F33F65 /* Pods-munjazaty.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF2B3B9221C2D9D4006399DA /* M */ = {
+			isa = PBXGroup;
+			children = (
+				AFB664CD21C0B1C200365A19 /* AppDelegate.swift */,
+				AF43FC4321C2A62A003974CD /* cell.swift */,
+				AF2B3B9521C2DA80006399DA /* CellayaTableViewCell.swift */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		AF2B3B9321C2D9E1006399DA /* V */ = {
+			isa = PBXGroup;
+			children = (
+				AFB664D421C0B1C500365A19 /* Assets.xcassets */,
+				AFB664D621C0B1C500365A19 /* LaunchScreen.storyboard */,
+				AFB664D121C0B1C200365A19 /* Main.storyboard */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		AF2B3B9421C2D9ED006399DA /* C */ = {
+			isa = PBXGroup;
+			children = (
+				AFB664CF21C0B1C200365A19 /* ViewController.swift */,
+				AF59080321C149710089A74E /* home.swift */,
+				AF59080521C14A270089A74E /* callender.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
 		AFB664C121C0B1C200365A19 = {
 			isa = PBXGroup;
 			children = (
 				AFB664CC21C0B1C200365A19 /* munjazaty */,
 				AFB664CB21C0B1C200365A19 /* Products */,
+				7246468975BC73D45FBBB7CF /* Pods */,
+				CFC0F37C9C66238A4DA0813A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +108,20 @@
 		AFB664CC21C0B1C200365A19 /* munjazaty */ = {
 			isa = PBXGroup;
 			children = (
-				AFB664CD21C0B1C200365A19 /* AppDelegate.swift */,
-				AFB664CF21C0B1C200365A19 /* ViewController.swift */,
-				AFB664D121C0B1C200365A19 /* Main.storyboard */,
-				AFB664D421C0B1C500365A19 /* Assets.xcassets */,
-				AFB664D621C0B1C500365A19 /* LaunchScreen.storyboard */,
 				AFB664D921C0B1C500365A19 /* Info.plist */,
+				AF2B3B9421C2D9ED006399DA /* C */,
+				AF2B3B9321C2D9E1006399DA /* V */,
+				AF2B3B9221C2D9D4006399DA /* M */,
 			);
 			path = munjazaty;
+			sourceTree = "<group>";
+		};
+		CFC0F37C9C66238A4DA0813A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A81DFA3C7E8E97AB00FE2585 /* Pods_munjazaty.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFB664DC21C0B1C500365A19 /* Build configuration list for PBXNativeTarget "munjazaty" */;
 			buildPhases = (
+				A2C3C62E4A4063AAB58AA925 /* [CP] Check Pods Manifest.lock */,
 				AFB664C621C0B1C200365A19 /* Sources */,
 				AFB664C721C0B1C200365A19 /* Frameworks */,
 				AFB664C821C0B1C200365A19 /* Resources */,
+				9A1E19924553179810B4B3B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +192,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9A1E19924553179810B4B3B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-munjazaty/Pods-munjazaty-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TabPageViewController/TabPageViewController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TabPageViewController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-munjazaty/Pods-munjazaty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2C3C62E4A4063AAB58AA925 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-munjazaty-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AFB664C621C0B1C200365A19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF59080621C14A270089A74E /* callender.swift in Sources */,
+				AF43FC4421C2A62A003974CD /* cell.swift in Sources */,
+				AF59080421C149710089A74E /* home.swift in Sources */,
 				AFB664D021C0B1C200365A19 /* ViewController.swift in Sources */,
 				AFB664CE21C0B1C200365A19 /* AppDelegate.swift in Sources */,
+				AF2B3B9621C2DA80006399DA /* CellayaTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +393,7 @@
 		};
 		AFB664DD21C0B1C500365A19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 695AB9B1DA90EC1EE2D5E8C5 /* Pods-munjazaty.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +412,7 @@
 		};
 		AFB664DE21C0B1C500365A19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC0755060A3DAC4D12F33F65 /* Pods-munjazaty.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
