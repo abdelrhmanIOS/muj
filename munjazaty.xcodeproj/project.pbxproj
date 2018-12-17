@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		94BBBA8E4D8195A7288A84B3 /* Pods_munjazaty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A81DFA3C7E8E97AB00FE2585 /* Pods_munjazaty.framework */; };
+		AF29EAF321C3FC720072C208 /* resultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF29EAF221C3FC720072C208 /* resultVC.swift */; };
 		AF2B3B9621C2DA80006399DA /* CellayaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B3B9521C2DA80006399DA /* CellayaTableViewCell.swift */; };
 		AF43FC4421C2A62A003974CD /* cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF43FC4321C2A62A003974CD /* cell.swift */; };
 		AF59080421C149710089A74E /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF59080321C149710089A74E /* home.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		695AB9B1DA90EC1EE2D5E8C5 /* Pods-munjazaty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-munjazaty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-munjazaty/Pods-munjazaty.debug.xcconfig"; sourceTree = "<group>"; };
 		A81DFA3C7E8E97AB00FE2585 /* Pods_munjazaty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_munjazaty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF29EAF221C3FC720072C208 /* resultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultVC.swift; sourceTree = "<group>"; };
 		AF2B3B9521C2DA80006399DA /* CellayaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellayaTableViewCell.swift; sourceTree = "<group>"; };
 		AF43FC4321C2A62A003974CD /* cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cell.swift; sourceTree = "<group>"; };
 		AF59080321C149710089A74E /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
@@ -57,14 +59,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		AF2B3B9221C2D9D4006399DA /* M */ = {
+		AF2B3B9221C2D9D4006399DA /* m */ = {
 			isa = PBXGroup;
 			children = (
 				AFB664CD21C0B1C200365A19 /* AppDelegate.swift */,
 				AF43FC4321C2A62A003974CD /* cell.swift */,
 				AF2B3B9521C2DA80006399DA /* CellayaTableViewCell.swift */,
 			);
-			path = M;
+			path = m;
 			sourceTree = "<group>";
 		};
 		AF2B3B9321C2D9E1006399DA /* V */ = {
@@ -83,6 +85,7 @@
 				AFB664CF21C0B1C200365A19 /* ViewController.swift */,
 				AF59080321C149710089A74E /* home.swift */,
 				AF59080521C14A270089A74E /* callender.swift */,
+				AF29EAF221C3FC720072C208 /* resultVC.swift */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -111,7 +114,7 @@
 				AFB664D921C0B1C500365A19 /* Info.plist */,
 				AF2B3B9421C2D9ED006399DA /* C */,
 				AF2B3B9321C2D9E1006399DA /* V */,
-				AF2B3B9221C2D9D4006399DA /* M */,
+				AF2B3B9221C2D9D4006399DA /* m */,
 			);
 			path = munjazaty;
 			sourceTree = "<group>";
@@ -202,13 +205,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-munjazaty/Pods-munjazaty-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TabPageViewController/TabPageViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TabPageViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -249,6 +252,7 @@
 				AF59080421C149710089A74E /* home.swift in Sources */,
 				AFB664D021C0B1C200365A19 /* ViewController.swift in Sources */,
 				AFB664CE21C0B1C200365A19 /* AppDelegate.swift in Sources */,
+				AF29EAF321C3FC720072C208 /* resultVC.swift in Sources */,
 				AF2B3B9621C2DA80006399DA /* CellayaTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,7 +8,23 @@
 
 import UIKit
 
-class resultVC: UIViewController {
+class resultVC: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource {
+    
+    @IBOutlet weak var collection: UICollectionView!
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 10   
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let celll = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
+        
+        celll.isSelected = true
+        celll.layer.cornerRadius = 20
+        
+        return celll
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
