@@ -44,6 +44,7 @@ class home: UIViewController,UICollectionViewDataSource,UICollectionViewDelegate
         
         return celll
     }
+  
     @IBOutlet weak var tabel1: UITableView!
     @IBOutlet weak var tabel2: UITableView!
     /*
@@ -85,6 +86,7 @@ class home: UIViewController,UICollectionViewDataSource,UICollectionViewDelegate
         // Do any additional setup after loading the view.
     }
     
+   
     var i = 0
     @IBAction func back(_ sender: Any) {
     i=i+1

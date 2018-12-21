@@ -11,6 +11,10 @@
 		AF29EAF321C3FC720072C208 /* resultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF29EAF221C3FC720072C208 /* resultVC.swift */; };
 		AF2B3B9621C2DA80006399DA /* CellayaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B3B9521C2DA80006399DA /* CellayaTableViewCell.swift */; };
 		AF43FC4421C2A62A003974CD /* cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF43FC4321C2A62A003974CD /* cell.swift */; };
+		AF54728821C9976F00EAE5E5 /* return_password.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF54728721C9976F00EAE5E5 /* return_password.swift */; };
+		AF54728B21C997A000EAE5E5 /* checkcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF54728A21C997A000EAE5E5 /* checkcode.swift */; };
+		AF54728D21C997C200EAE5E5 /* newpass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF54728C21C997C200EAE5E5 /* newpass.swift */; };
+		AF54729021C9B85700EAE5E5 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF54728F21C9B85700EAE5E5 /* login.swift */; };
 		AF59080421C149710089A74E /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF59080321C149710089A74E /* home.swift */; };
 		AF59080621C14A270089A74E /* callender.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF59080521C14A270089A74E /* callender.swift */; };
 		AFB664CE21C0B1C200365A19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB664CD21C0B1C200365A19 /* AppDelegate.swift */; };
@@ -18,6 +22,9 @@
 		AFB664D321C0B1C200365A19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB664D121C0B1C200365A19 /* Main.storyboard */; };
 		AFB664D521C0B1C500365A19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB664D421C0B1C500365A19 /* Assets.xcassets */; };
 		AFB664D821C0B1C500365A19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB664D621C0B1C500365A19 /* LaunchScreen.storyboard */; };
+		AFDA2F7C21CA828D000B92AD /* events.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA2F7B21CA828D000B92AD /* events.swift */; };
+		AFF8127D21CA7157006DA5D5 /* Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF8127C21CA7157006DA5D5 /* Add.swift */; };
+		AFFC3AC121CAB30000C01707 /* occation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFC3AC021CAB30000C01707 /* occation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,10 @@
 		AF29EAF221C3FC720072C208 /* resultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultVC.swift; sourceTree = "<group>"; };
 		AF2B3B9521C2DA80006399DA /* CellayaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellayaTableViewCell.swift; sourceTree = "<group>"; };
 		AF43FC4321C2A62A003974CD /* cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cell.swift; sourceTree = "<group>"; };
+		AF54728721C9976F00EAE5E5 /* return_password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = return_password.swift; sourceTree = "<group>"; };
+		AF54728A21C997A000EAE5E5 /* checkcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkcode.swift; sourceTree = "<group>"; };
+		AF54728C21C997C200EAE5E5 /* newpass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newpass.swift; sourceTree = "<group>"; };
+		AF54728F21C9B85700EAE5E5 /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
 		AF59080321C149710089A74E /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
 		AF59080521C14A270089A74E /* callender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = callender.swift; sourceTree = "<group>"; };
 		AFB664CA21C0B1C200365A19 /* munjazaty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = munjazaty.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,6 +46,9 @@
 		AFB664D421C0B1C500365A19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFB664D721C0B1C500365A19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFB664D921C0B1C500365A19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFDA2F7B21CA828D000B92AD /* events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = events.swift; sourceTree = "<group>"; };
+		AFF8127C21CA7157006DA5D5 /* Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add.swift; sourceTree = "<group>"; };
+		AFFC3AC021CAB30000C01707 /* occation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = occation.swift; sourceTree = "<group>"; };
 		EC0755060A3DAC4D12F33F65 /* Pods-munjazaty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-munjazaty.release.xcconfig"; path = "Pods/Target Support Files/Pods-munjazaty/Pods-munjazaty.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,12 +96,34 @@
 		AF2B3B9421C2D9ED006399DA /* C */ = {
 			isa = PBXGroup;
 			children = (
+				AFDA2F7A21CA8228000B92AD /* tabels */,
+				AFF8127B21CA70FB006DA5D5 /* ADD */,
+				AF54728E21C9B77000EAE5E5 /* login */,
+				AF54728921C9977A00EAE5E5 /* password */,
 				AFB664CF21C0B1C200365A19 /* ViewController.swift */,
 				AF59080321C149710089A74E /* home.swift */,
 				AF59080521C14A270089A74E /* callender.swift */,
 				AF29EAF221C3FC720072C208 /* resultVC.swift */,
 			);
 			path = C;
+			sourceTree = "<group>";
+		};
+		AF54728921C9977A00EAE5E5 /* password */ = {
+			isa = PBXGroup;
+			children = (
+				AF54728721C9976F00EAE5E5 /* return_password.swift */,
+				AF54728A21C997A000EAE5E5 /* checkcode.swift */,
+				AF54728C21C997C200EAE5E5 /* newpass.swift */,
+			);
+			path = password;
+			sourceTree = "<group>";
+		};
+		AF54728E21C9B77000EAE5E5 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				AF54728F21C9B85700EAE5E5 /* login.swift */,
+			);
+			path = login;
 			sourceTree = "<group>";
 		};
 		AFB664C121C0B1C200365A19 = {
@@ -117,6 +153,23 @@
 				AF2B3B9221C2D9D4006399DA /* m */,
 			);
 			path = munjazaty;
+			sourceTree = "<group>";
+		};
+		AFDA2F7A21CA8228000B92AD /* tabels */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA2F7B21CA828D000B92AD /* events.swift */,
+				AFFC3AC021CAB30000C01707 /* occation.swift */,
+			);
+			path = tabels;
+			sourceTree = "<group>";
+		};
+		AFF8127B21CA70FB006DA5D5 /* ADD */ = {
+			isa = PBXGroup;
+			children = (
+				AFF8127C21CA7157006DA5D5 /* Add.swift */,
+			);
+			path = ADD;
 			sourceTree = "<group>";
 		};
 		CFC0F37C9C66238A4DA0813A /* Frameworks */ = {
@@ -205,13 +258,19 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-munjazaty/Pods-munjazaty-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -249,10 +308,17 @@
 			files = (
 				AF59080621C14A270089A74E /* callender.swift in Sources */,
 				AF43FC4421C2A62A003974CD /* cell.swift in Sources */,
+				AF54728821C9976F00EAE5E5 /* return_password.swift in Sources */,
+				AF54729021C9B85700EAE5E5 /* login.swift in Sources */,
 				AF59080421C149710089A74E /* home.swift in Sources */,
+				AFFC3AC121CAB30000C01707 /* occation.swift in Sources */,
 				AFB664D021C0B1C200365A19 /* ViewController.swift in Sources */,
+				AF54728D21C997C200EAE5E5 /* newpass.swift in Sources */,
 				AFB664CE21C0B1C200365A19 /* AppDelegate.swift in Sources */,
 				AF29EAF321C3FC720072C208 /* resultVC.swift in Sources */,
+				AFF8127D21CA7157006DA5D5 /* Add.swift in Sources */,
+				AFDA2F7C21CA828D000B92AD /* events.swift in Sources */,
+				AF54728B21C997A000EAE5E5 /* checkcode.swift in Sources */,
 				AF2B3B9621C2DA80006399DA /* CellayaTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
